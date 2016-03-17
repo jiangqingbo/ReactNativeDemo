@@ -6,11 +6,11 @@
 # React Native 开发笔记
 
 
-#### 1、安装Homebrew
+### 1、安装Homebrew
 
 	$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 	
-#### 2、安装wget、git、curl工具
+### 2、安装wget、git、curl工具
 
 	//每次执行brew命令时，最好先执行brew update 或者 brew upgrade 来保持上述几个程序为最新版本。
 	$ brew update
@@ -24,7 +24,7 @@
 	//安装curl工具
 	$ brew install curl
 	
-#### 3、安装npm工具，这时会自动安装node.js，并自动设置环境变量
+### 3、安装npm工具，这时会自动安装node.js，并自动设置环境变量
 
 	$ brew install npm
 	
@@ -56,9 +56,9 @@
 	curl		git		openssl		watchman
 	flow		node		pcre		wget
 
-#### 4、快速开始
+### 4、快速开始
 
-** 1、安装 React Native 组件 **
+###### 1、安装 React Native 组件 
 
 React Native 需要一些在 开始 React Native 中阐明的基本的安装。
 在完成了这些依赖项的安装之后，这里有两条可以为一个 React Native 项目完全准备好的命令。
@@ -76,7 +76,7 @@ react-native-cli 是完成剩余安装的命令行工具。它是通过 npm 安�
 
 	另，执行init时切记不要在前面加上sudo（否则新项目的目录所有者会变为root而不是当前用户，导致一系列权限问题，请使用chown修复）。
 	
-** 2、运行iOS应用 **
+###### 2、运行iOS应用 
 
     $ cd AwesomeProject
     
@@ -84,7 +84,7 @@ react-native-cli 是完成剩余安装的命令行工具。它是通过 npm 安�
     使用你喜欢的文本编辑器打开index.ios.js并随便改上几行。
     在iOS Emulator中按下⌘-R就可以刷新APP并看到你的最新修改！
 
-** 3、运行Android应用 **
+###### 3、运行Android应用 
 
     $ cd AwesomeProject
     $ react-native run-android
@@ -94,7 +94,7 @@ react-native-cli 是完成剩余安装的命令行工具。它是通过 npm 安�
     在终端下运行adb logcat *:S ReactNative:V ReactNativeJS:V可以看到你的应用的日志。
     
     
-#### 5、为已有的React Native工程添加Android支持
+### 5、为已有的React Native工程添加Android支持
 
 	如果你已经有了一个只有iOS版本的React Native工程，并且希望添加Android支持，你需要在你的工程目录下运行以下命令：
 	打开package.json文件，在dependencies项中找到react-native，并将其后的版本号修改为最新版本。
@@ -103,9 +103,9 @@ react-native-cli 是完成剩余安装的命令行工具。它是通过 npm 安�
     $ react-native android
     
     
-#### 6、启动 watchman 服务
+### 6、启动 watchman 服务
 
-** 查看 watchman 服务启动结果 **
+###### 查看 watchman 服务启动结果 
 
 	在浏览器运行：
 	http://localhost:8081/index.android.bundle?platform=android&dev=true&hot=false
@@ -113,28 +113,28 @@ react-native-cli 是完成剩余安装的命令行工具。它是通过 npm 安�
 	
 <img src='screenshot/watchman_server.png' width='650'>
     
-#### 6、运行结果
+### 7、运行结果
 
- ** 1、第一次运行手机肯定报错 **
+###### 1、第一次运行手机肯定报错 
  
  <img src='screenshot/error_1.jpeg' width='320'>
  <img src='screenshot/error_2.jpeg' width='320'>
  
- ** 2、这时候摇一摇手机，点击Dev Settings后，点击Debug server host & port for device,设置IP和端口 **
+###### 2、这时候摇一摇手机，点击Dev Settings后，点击Debug server host & port for device,设置IP和端口 
  
  <img src='screenshot/1.jpeg' width='320'>
  <img src='screenshot/2.jpeg' width='320'>
  
- ** 3、这里的IP是电脑的IP，不知道的可以在命令行中输入ipconfig进行查询，端口号固定8081 **
+###### 3、这里的IP是电脑的IP，不知道的可以在命令行中输入ipconfig进行查询，端口号固定8081 
  
  <img src='screenshot/3.jpeg' width='320'>
  
- ** 4、设置完成后，回到空白页面，再次摇一摇手机，选择Reload JS，程序就运行起来，出现Welcome to React Native！ **
+###### 4、设置完成后，回到空白页面，再次摇一摇手机，选择Reload JS，程序就运行起来，出现Welcome to React Native！ 
 
  <img src='screenshot/4.jpeg' width='320'>
  <img src='screenshot/5.jpeg' width='320'>
 
-** 5、第一次运行React Native 项目结束。 **
+###### 5、第一次运行React Native 项目结束。 
 	
 	
 
