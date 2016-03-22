@@ -67,7 +67,7 @@ React Native 需要一些在 开始 React Native 中阐明的基本的安装。
     
 react-native-cli 是完成剩余安装的命令行工具。它是通过 npm 安装的。这将会在你的终端里面安装 react-native 这个命令行，你只需要做一次即可。
     
-    $ react-native init AwesomeProject
+    $ react-native init ReactNativeDemo
     
     译注：由于众所周知的网络原因，react-native命令行从npm官方源拖代码时会遇上麻烦。请将npm仓库源替换为国内镜像：
 
@@ -78,15 +78,15 @@ react-native-cli 是完成剩余安装的命令行工具。它是通过 npm 安�
 	
 ###### 2、运行iOS应用 
 
-    $ cd AwesomeProject
+    $ cd ReactNativeDemo
     
-    用XCode打开ios/AwesomeProject.xcodeproj并点击Run按钮。
+    用XCode打开ios/ReactNativeDemo.xcodeproj并点击Run按钮。
     使用你喜欢的文本编辑器打开index.ios.js并随便改上几行。
     在iOS Emulator中按下⌘-R就可以刷新APP并看到你的最新修改！
 
 ###### 3、运行Android应用 
 
-    $ cd AwesomeProject
+    $ cd ReactNativeDemo
     $ react-native run-android
     
     使用你喜欢的文本编辑器打开index.android.js并随便改上几行
