@@ -138,6 +138,11 @@ react-native-cli 是完成剩余安装的命令行工具。它是通过 npm 安�
 
 ### 8、ListView处理列表数据，动态加载影视数据，以下是运行效果图
 
+###### 1、android环境，直接运行下面指令即看效果
+
+	$ react-native run-android
+	
+
 <img src='screenshot/result.jpeg' width='320'>
 	
 	
