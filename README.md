@@ -136,7 +136,11 @@ react-native-cli 是完成剩余安装的命令行工具。它是通过 npm 安�
 
 ###### 5、第一次运行React Native 项目结束。 
 
-### 8、ListView处理列表数据，动态加载影视数据，以下是运行效果图
+### 8、继续修改ReactNativeDemo项目
+
+动态加载影视数据：http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json
+
+在项目中添加ListView控件，处理列表数据，以下是运行效果图
 
 ###### 1、android环境，直接运行下面指令即看效果
 
