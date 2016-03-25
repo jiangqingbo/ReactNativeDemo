@@ -148,6 +148,11 @@ react-native-cli 是完成剩余安装的命令行工具。它是通过 npm 安�
 	
 
 <img src='screenshot/result.jpeg' width='320'>
+
+
+### 学习Facebook官方例子
+
+UIExplorer 和 Movies 例子： <https://github.com/jiangqingbo/react-native-demo>
 	
 	
 
