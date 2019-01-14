@@ -76,6 +76,17 @@ react-native-cli 是完成剩余安装的命令行工具。它是通过 npm 安�
 
 	另，执行init时切记不要在前面加上sudo（否则新项目的目录所有者会变为root而不是当前用户，导致一系列权限问题，请使用chown修复）。
 	
+接着安装 Yarn 的命令行工具，Yarn是 Facebook 提供的替代 npm 的工具，可以加速 node 模块的下载。React Native 的命令行工具用于执行创建、初始化、更新项目、运行打包服务（packager）等任务。
+
+	npm install -g yarn react-native-cli
+	
+安装完 yarn 后同理也要设置镜像源：
+
+	yarn config set registry https://registry.npm.taobao.org --global
+	yarn config set disturl https://npm.taobao.org/dist --global
+	
+安装完 yarn 之后就可以用 yarn 代替 npm 了，例如用yarn代替npm install命令，用yarn add 某第三方库名代替npm install 某第三方库名。	
+	
 ###### 2、运行iOS应用 
 
     $ cd ReactNativeDemo
